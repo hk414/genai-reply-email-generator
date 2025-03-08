@@ -30,7 +30,16 @@ Create a profile.txt and include relevant information.
 pip install -r requirements.txt
 ```
 
-### 4. Run the app
+### 4. Configure Your Groq API Key
+You will need a Groq API key to use the email generation service. Follow these steps to configure it:
+
+Create a .env file in the project root directory.
+
+```bash
+GROQ_API_KEY=your_api_key_here
+```
+
+### 5. Run the app
 ```bash
 streamlit run main.py 
 ```
